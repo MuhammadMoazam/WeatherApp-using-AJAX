@@ -1,0 +1,101 @@
+body {
+  background-image: url("https://images.pexels.com/photos/469546/pexels-photo-469546.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+}
+
+
+.weather-data {
+  text-align: center;
+}
+
+/* Overall styling */
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #EAECCC;
+  /* Light gray background */
+}
+
+/* Container for content */
+div {
+  padding: 20px;
+  border-radius: 5px;
+  /* Add a subtle shadow */
+}
+
+/* Input section styling */
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-section input {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-section button {
+  width: 25%;
+  background-color: #FF9843;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.input-section button:hover{
+
+  border-top-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.heading {
+  font-size: xx-large;
+  color: #FF9843;
+  font-weight: 600;
+}
+
+.input-section {
+  /* Existing styles for input section */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Center items horizontally */
+}
+
+.input-section button {
+  /* Existing styles for button */
+  margin: 0 auto;
+  /* Center the button within its container */
+}
+
+
+.weather-data h1 {
+  font-size: clamp(1.2rem, 2rem, 2.5rem);
+}
+
+.weather-data h3 {
+  font-size: clamp(1rem, 1.5rem, 2rem);
+}
+
+.weather-data {
+  margin: auto;
+  background: rgba(0, 0, 0, .25);
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  width: 50%;
+}
